@@ -1,6 +1,6 @@
 # E-commerce Platform Detection 
 
-This Python script checks a list of e-commerce websites for their platform information and logs the results in an Excel file. It leverages multi-threading to handle multiple requests concurrently, improving efficiency when processing large datasets. The sample data taken from ETBİS. (https://www.eticaret.gov.tr/)
+This Python script checks a list of websites for their platform provider information and logs the results in an Excel file. It leverages multi-threading to handle multiple requests concurrently, improving efficiency when processing large datasets. The sample data taken from ETBİS. (https://www.eticaret.gov.tr/)
 
 # Requirements
 The script requires the following Python libraries:
@@ -8,22 +8,6 @@ The script requires the following Python libraries:
 - requests - for making HTTP requests to each URL.
 - pandas - for handling and processing data in Excel format.
 - concurrent.futures - for handling concurrent threads.
-
-# Installation
-
-Clone or download the repository.
-
-Save your list of e-commerce sites in an Excel file named sampledata.xlsx with the columns:
-
-- E Ticaret Sitesi - URL of the e-commerce website
-- İşletme Unvanı - Business Name
-- Place the Excel file in the same directory as the script.
-
-A new file, platforms.xlsx, will be generated, listing:
-
-- İşletme Unvanı: The business name.
-- E Ticaret Sitesi: The URL of the e-commerce site.
-- Platform: The detected e-commerce platform.
 
 # Notes
 
