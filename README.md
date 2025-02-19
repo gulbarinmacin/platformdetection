@@ -1,4 +1,4 @@
-# E-commerce Platform Detection 
+# Platform Detection 
 
 This Python script checks a list of websites for their platform provider information and logs the results in an Excel file. It leverages multi-threading to handle multiple requests concurrently, improving efficiency when processing large datasets. The sample data taken from ETBİS. (https://www.eticaret.gov.tr/)
 
